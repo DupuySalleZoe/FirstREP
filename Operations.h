@@ -1,19 +1,18 @@
-int addition(int a, int b);
+int mult(int a, int b);
 
 {
 	int resultat;
 	
-	resultat = a + b;
+	resultat = a * b;
 	
 	return resultat;
 }
 
-int soustraction(int a, int b);
-
+int div(int a, int b);
 {
 	int resultat;
 	
-	resultat = a - b;
+	resultat = a / b;
 	
 	return resultat;
 }
