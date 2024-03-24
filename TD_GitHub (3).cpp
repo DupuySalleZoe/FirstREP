@@ -12,9 +12,64 @@ bool estMajeur(int age);
 	
 	if (age<18)
 	{
-		printf(
+		printf("FAUX");
+		return printf("FAUX");
+	}
+	if (age>18)
+	{
+		printf("FAUX");
+		return printf("FAUX");
+	}
+	if (age<0)
+	{
+		printf("VRAI");
+		return printf("VRAI");
 	}
 }
+int exposant(int nbre, int exp);
+{
+	int resultat;
+	int cas;
+	for (int cas = 0; cas < exp; cas++)
+	{
+		nbre = nbre * exp;
+	}
+	resultat = nbre;
+	
+	return resultat;
+}
+float TVA(int prix);
+{
+	int resultat;
+	if (prix < 1000);
+	{
+		resultat = prix * 1.055;
+		return resultat;
+	}
+	else (prix  >= 1000)
+	{
+		resultat = prix * 1.196;
+		return resultat;
+	}
+}
+int plusGrand(int a, int b, int c);
+{
+	int tableau[3] = {a, b, c};
+	int cas;
+	int transport;
+	for (cas=1 ; i <= 3-1; cas++) 
+	{ 
+    while (cas > 0 && tableau[cas-1] > tableau[cas]) {
+      transport = tableau[cas];
+      tableau[cas] = tableau[cas-1];
+      tableau[cas-1] = transport;
+ 
+      cas--;
+    }
+	resultat = tableau[cas + 3 - 1];
+	return resultat;
+}
+
 
 
 
